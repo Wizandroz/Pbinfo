@@ -2,8 +2,8 @@
 using namespace std;
 int main() {
   int n,m;
-  std::cout << "n= " << '\n'; std::cin >> n;
-  std::cout << "m= " << '\n';std::cin >> m;
-  std::cout << m / n << '\n';
+  std::cout << "n= "; std::cin >> n;
+  std::cout << "m= ";std::cin >> m;
+  std::cout << m / n ;
   return 0;
 }
