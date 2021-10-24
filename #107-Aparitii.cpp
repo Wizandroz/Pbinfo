@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-int num, cif, ult, ap;
 int main()
 {
+    int num, cif, ult, ap;
     cin >> num;
     ult=num%10; ap=1;
     num=num/10;
