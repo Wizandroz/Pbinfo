@@ -9,6 +9,6 @@ int main ()
         s=s+nr%10;
         nr=nr/10;
     }
-    cout<<s<<'\n';
+    cout<<s;
     return 0;
 }
