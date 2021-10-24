@@ -4,6 +4,6 @@ int main()
 {
     int n;
     cin >> n;
-    cout <<"Suma este "<< (n+1)*n<<'\n';
+    cout <<(n+1)*n;
     return 0;
 }
