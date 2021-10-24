@@ -2,9 +2,9 @@
 using namespace std;
 int main(){
     int a, b, c;
-    std::cout << "a=";std::cin >> a;
-    std::cout << "b=";std::cin >> b;
-    std::cout << "c=";std::cin >> c;
+    cin >> a;
+    cin >> b;
+    cin >> c;
     int min = a, max = a;
     if(b > max)
         max = b;
@@ -14,6 +14,6 @@ int main(){
         min = b;
     if(c < min)
         min = c;
-    cout <<"Maxim - minim =" << max - min << '\n';
+    cout << max - min;
     return 0;
 }
