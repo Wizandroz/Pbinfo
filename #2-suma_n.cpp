@@ -10,6 +10,6 @@ int main ()
         cin >> tmp;
         s+= tmp;
     }
-    cout << s << '\n';
+    cout << s;
     return 0;
 }
