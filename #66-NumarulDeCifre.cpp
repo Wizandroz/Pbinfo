@@ -9,6 +9,6 @@ int main()
     numar /= 10;
     nr_cifre++;
   }
-  cout << nr_cifre << '\n';
+  cout << nr_cifre;
   return 0;
 }
