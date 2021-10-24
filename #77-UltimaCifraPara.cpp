@@ -11,6 +11,6 @@ int main()
     n /=10;
   }
   while(n);
-cout << ucp <<'\n';
+cout << ucp;
 return 0;
 }
