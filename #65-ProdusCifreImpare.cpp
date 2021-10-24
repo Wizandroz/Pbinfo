@@ -18,6 +18,6 @@ n /= 10;
 if (ok)
 cout << produs;
 else
-cout << -1 <<'\n';
+cout << -1;
 return 0;
 }
